@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/no-sql-database.iml" filepath="$PROJECT_DIR$/no-sql-database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/no-sql-database-client/no-sql-database-client.iml" filepath="$PROJECT_DIR$/no-sql-database-client/no-sql-database-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/no-sql-database-server/no-sql-database-server.iml" filepath="$PROJECT_DIR$/no-sql-database-server/no-sql-database-server.iml" />
+    </modules>
+  </component>
+</project>
+
