@@ -1,0 +1,24 @@
+This is a No-SQL-DataBase project — a simple no-SQL database, developed as a project for the database course at the Computer Science Center.
+
+This application consists of two modules — no-sql-database-client and no-sql-database-server. No-sql-database-client is a client part of the application, no-sql-database-server is a server part. The user interface is a cmmand line. Here are the available commands:
+
+help - print help to show all the available cmmands
+show_tables — show a list of all existing tables 
+create (tableName:key, columnName1, ...) | create table:key, columnName1 ... - create a new table with specified name, key and attribute names
+drop (tableName) | drop tableName — drop a table with a scecified name
+get (tableName:key) | get table:key — get records (table rows) corresponding to a specified key
+update (tableName:key, value1 ...) | update table:key, value1 — update record (table row) with a specified key 
+add (tableName:key, value1 ...) | add tableName:key, value1 — add a new record (table row) with a specified key and attribute values to a specified table 
+remove (tableName:key) | remove tableName:key — remove a record (table row) with a specified key
+desc (tableName) | desc tableName — describe a table
+exit — quit to over a work seesion
+
+To launch this application you need firstly to start a database server. You can do it in this way:
+java ru.compscicenter.db.tolmachev.nosqldb.server.httpprotocol.DataBaseHttpServer <database server port>
+<database server port> — port on which you want to start database server, for example 2000.
+
+Then, you will be able to launch a command line:
+java ru.compscicenter.db.tolmachev.nosqldb.client.commandline.CommandLine <connection host> <connection port>
+<connection host> — host on which database server is started. It may be a localhost or another host, where you have started database server
+<connection port> — port of the <connection host> on which database server is started
+
