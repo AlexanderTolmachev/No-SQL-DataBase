@@ -7,10 +7,10 @@ show_tables — show a list of all existing tables
 create (tableName:key, columnName1, ...) | create table:key, columnName1 ... - create a new table with specified name, key and attribute names
 drop (tableName) | drop tableName — drop a table with a scecified name
 get (tableName:key) | get table:key — get record (table rows) corresponding to a specified key
-update (tableName:key, value1 ...) | update table:key, value1 — update record (table row) with a specified key 
-add (tableName:key, value1 ...) | add tableName:key, value1 — add a new record (table row) with a specified key and attribute values to a specified table 
+update (tableName:key, value1 ...) | update table:key, value1 ... — update record (table row) with a specified key 
+add (tableName:key, value1 ...) | add tableName:key, value1 ... — add a new record (table row) with a specified key and attribute values to a specified table 
 remove (tableName:key) | remove tableName:key — remove a record (table row) with a specified key
-desc (tableName) | desc tableName — describe a table
+desc (tableName) | desc tableName — describe a table with a specified name
 exit — quit to over a work seesion
 
 To launch this application you need firstly to start a database server. You can do it in this way:

@@ -50,14 +50,14 @@ public class CommandExecutor {
     private static String executeHelpCommand() {
         StringBuffer sb = new StringBuffer();
         sb.append("help - print all available commands\n");
-        sb.append("show_tables - show names of all tables\n");
-        sb.append("create (tableName:key, columnName1, ...) | create table:key, columnName1... - create table with given name and columns  \n");
-        sb.append("drop (tableName) | drop tableName \n");
-        sb.append("get (tableName:key) | get table:key - get list of rows that match given key\n");
-        sb.append("update (tableName:key, value1 ...) | update table:key, value1 -  update row in table with given key\n");
-        sb.append("add (tableName:key, value1 ...) | add tableName:key, value1 -  add row to table with given key and values\n");
-        sb.append("remove (tableName:key) | remove tableName:key - remove from table row with given key by name\n");
-        sb.append("desc (tableName) | desc tableName - describe table with given name\n");
+        sb.append("show_tables — show a list of all existing tables \n");
+        sb.append("create (tableName:key, columnName1, ...) | create table:key, columnName1 ... - create a new table with specified name, key and attribute names  \n");
+        sb.append("drop (tableName) | drop tableName — drop a table with a scecified name \n");
+        sb.append("get (tableName:key) | get table:key — get record (table rows) corresponding to a specified key\n");
+        sb.append("update (tableName:key, value1 ...) | update table:key, value1 ... — update record (table row) with a specified key \n");
+        sb.append("add (tableName:key, value1 ...) | add tableName:key, value1 ... — add a new record (table row) with a specified key and attribute values to a specified table \n");
+        sb.append("remove (tableName:key) | remove tableName:key — remove a record (table row) with a specified key\n");
+        sb.append("desc (tableName) | desc tableName — describe a table with a specified name\n");
         sb.append("exit - safe exit with making backups");
         return sb.toString();
     }
