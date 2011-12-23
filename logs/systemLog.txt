@@ -1,8 +1,0 @@
-[2011-12-23 19:55:59] starting loading data from backup: 
-[2011-12-23 19:55:59] data from backup loaded successfully 
-[2011-12-23 19:57:02] starting making backup: 
-[2011-12-23 19:57:02] backup made successfully:
-[2011-12-23 19:57:30] starting loading data from backup: 
-[2011-12-23 19:57:30] data from backup loaded successfully 
-[2011-12-23 19:57:37] starting making backup: 
-[2011-12-23 19:57:37] backup made successfully:

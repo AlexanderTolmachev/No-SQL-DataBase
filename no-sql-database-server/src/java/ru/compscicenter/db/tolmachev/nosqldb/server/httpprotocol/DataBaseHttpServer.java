@@ -82,7 +82,7 @@ public class DataBaseHttpServer {
         if (args.length != 1) {
             System.out.println("Invalid parameters number");
             System.out.println("Usage:");
-            System.out.println("ru.compscicenter.db.tolmachev.nosqldb.server.httpprotocol.DataBaseHttpServer database_server_port");
+            System.out.println("java ru.compscicenter.db.tolmachev.nosqldb.server.httpprotocol.DataBaseHttpServer <database server port>");
             return;
         }
 

@@ -108,19 +108,19 @@ public class Balancer {
      *
      * @param tableName - name of the table
      * @param args      - row as list of args, key has 0 index
-     * @throws ru.compscicenter.db.tolmachev.nosqldb.server.exceptions.DBUnavailabilityException - database is not available
+     * @throws DBUnavailabilityException - database is not available
      * @throws DataBaseRequestException   - wrong request
      * @throws DataBaseTableException     - if something wrong with adding data to th table
      */
-    public void add(String tableName, List<String> args) throws DBUnavailabilityException, DataBaseRequestException,
-            DataBaseTableException {
+    public void add(String tableName, List<String> args) throws DBUnavailabilityException,
+            DataBaseRequestException, DataBaseTableException {
         if (args.isEmpty()) {
             throw new DataBaseRequestException("zero args in request list");
         }
 
         String key = args.get(0);
         if (key == null) {
-            throw new DataBaseRequestException("key musn't be null");
+            throw new DataBaseRequestException("key shouldn't be null");
         }
 
         String firstCharAtName = key.substring(0, 1);
@@ -134,13 +134,14 @@ public class Balancer {
      * @param tableName - table name
      * @param key       -
      * @return row
-     * @throws ru.compscicenter.db.tolmachev.nosqldb.server.exceptions.DBUnavailabilityException - database is not available
+     * @throws DBUnavailabilityException - database is not available
      * @throws DataBaseRequestException   - wrong request
      * @throws DataBaseTableException     - if something wrong with adding data to th table
      */
-    public Row getByKey(String tableName, String key) throws DBUnavailabilityException, DataBaseRequestException, DataBaseTableException {
+    public Row getByKey(String tableName, String key) throws DBUnavailabilityException,
+            DataBaseRequestException, DataBaseTableException {
         if (key == null) {
-            throw new DataBaseRequestException("key musn't be null");
+            throw new DataBaseRequestException("key shouldn't be null");
         }
 
         String firstCharAtName = key.substring(0, 1);
@@ -191,15 +192,16 @@ public class Balancer {
      * remove from table with given name by key
      *
      * @param tableName - table name
-     * @param key       -
+     * @param key  -
      * @return true - if databse modified
-     * @throws ru.compscicenter.db.tolmachev.nosqldb.server.exceptions.DBUnavailabilityException - database is not available
+     * @throws DBUnavailabilityException - database is not available
      * @throws DataBaseRequestException   - wrong request
      * @throws DataBaseTableException     - if something wrong with adding data to th table
      */
-    public boolean removeByKey(String tableName, String key) throws DBUnavailabilityException, DataBaseRequestException, DataBaseTableException {
+    public boolean removeByKey(String tableName, String key) throws DBUnavailabilityException,
+            DataBaseRequestException, DataBaseTableException {
         if (key == null) {
-            throw new DataBaseRequestException("key musn't be null");
+            throw new DataBaseRequestException("key shouldn't be null");
         }
 
         String firstCharAtName = key.substring(0, 1);
@@ -213,11 +215,12 @@ public class Balancer {
      * @param tableName - table name
      * @param args      - row
      * @return true - if database modified
-     * @throws ru.compscicenter.db.tolmachev.nosqldb.server.exceptions.DBUnavailabilityException -  database is not available
+     * @throws DBUnavailabilityException -  database is not available
      * @throws DataBaseRequestException   - wrong request
      * @throws DataBaseTableException     - if something wrong with adding data to th table
      */
-    public boolean updateByName(String tableName, List<String> args) throws DBUnavailabilityException, DataBaseRequestException, DataBaseTableException {
+    public boolean updateByName(String tableName, List<String> args) throws DBUnavailabilityException,
+            DataBaseRequestException, DataBaseTableException {
         if (args.isEmpty()) {
             throw new DataBaseRequestException("zero args in request list");
         }
@@ -254,7 +257,7 @@ public class Balancer {
                 return databases.get(regexp);
             }
         }
-        throw new DBUnavailabilityException("database is unavaliable");
+        throw new DBUnavailabilityException("database is unavailable");
     }
 
 }

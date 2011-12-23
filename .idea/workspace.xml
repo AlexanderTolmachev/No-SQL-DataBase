@@ -80,43 +80,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DataBaseHttpServer.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DataBaseRequestException.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/exceptions/DataBaseRequestException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommandLogger.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/dbmanager/CommandLogger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="31" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataBaseHttpServer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/httpprotocol/DataBaseHttpServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="31" selection-start="3773" selection-end="3773" vertical-scroll-proportion="-1.0325203">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataBase.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/database/DataBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="61" selection-start="1557" selection-end="1557" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommandLine.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/no-sql-database-client/src/java/ru/compscicenter/db/tolmachev/nosqldb/client/commandline/CommandLine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="17" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommandExecutor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/command/CommandExecutor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="216" column="32" selection-start="8584" selection-end="8584" vertical-scroll-proportion="0.0">
+            <state line="28" column="34" selection-start="898" selection-end="898" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,7 +114,7 @@
       <file leaf-file-name="DataBaseManager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/dbmanager/DataBaseManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="18" selection-start="1168" selection-end="1168" vertical-scroll-proportion="0.0">
+            <state line="112" column="18" selection-start="4630" selection-end="4630" vertical-scroll-proportion="-3.94">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,10 +122,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HttpClient.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/no-sql-database-client/src/java/ru/compscicenter/db/tolmachev/nosqldb/client/httpprotocol/HttpClient.java">
+      <file leaf-file-name="Command.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/command/Command.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
+            <state line="36" column="44" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,10 +133,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommandLogger.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/dbmanager/CommandLogger.java">
+      <file leaf-file-name="DataContainer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/database/DataContainer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="39" selection-start="1808" selection-end="1808" vertical-scroll-proportion="0.0">
+            <state line="5" column="0" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Row.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/database/Row.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Balancer.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/dbmanager/Balancer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="40" selection-start="321" selection-end="321" vertical-scroll-proportion="-0.31626505">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommandExecutor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/command/CommandExecutor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="130" column="24" selection-start="5801" selection-end="5801" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -161,26 +177,6 @@
         <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/dbmanager/BackupExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="15" column="28" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBUnavailabilityException.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/exceptions/DBUnavailabilityException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Table.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/database/Table.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="92" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -207,13 +203,13 @@
         <option value="$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/database/Row.java" />
         <option value="$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/database/Table.java" />
         <option value="$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/database/TableDescription.java" />
-        <option value="$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/dbmanager/Balancer.java" />
         <option value="$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/dbmanager/CommandLogger.java" />
-        <option value="$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/command/CommandExecutor.java" />
-        <option value="$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/httpprotocol/DataBaseHttpServer.java" />
         <option value="$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/dbmanager/BackupExecutor.java" />
         <option value="$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/exceptions/DBUnavailabilityException.java" />
+        <option value="$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/httpprotocol/DataBaseHttpServer.java" />
+        <option value="$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/command/CommandExecutor.java" />
         <option value="$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/dbmanager/DataBaseManager.java" />
+        <option value="$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/dbmanager/Balancer.java" />
       </list>
     </option>
   </component>
@@ -759,7 +755,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33441558" sideWeight="0.7111111" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31006494" sideWeight="0.7111111" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2888889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -814,61 +810,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/exceptions/InvalidTableRowException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="54" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/database/DataContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/database/Row.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/no-sql-database-client/src/java/ru/compscicenter/db/tolmachev/nosqldb/client/exceptions/HttpClientException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/database/TableDescription.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/dbmanager/Balancer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="236" column="6" selection-start="8823" selection-end="8823" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/command/CommandExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="216" column="32" selection-start="8584" selection-end="8584" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/exceptions/DBUnavailabilityException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="13" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
@@ -876,36 +817,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/database/DataBase.java">
+    <entry file="file://$PROJECT_DIR$/no-sql-database-client/src/java/ru/compscicenter/db/tolmachev/nosqldb/client/commandline/CommandLine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="61" selection-start="1557" selection-end="1557" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/dbmanager/BackupExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="28" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/dbmanager/CommandLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="39" selection-start="1808" selection-end="1808" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/database/Table.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="92" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
+        <state line="62" column="132" selection-start="1828" selection-end="1928" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -921,30 +835,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/dbmanager/DataBaseManager.java">
+    <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/database/DataBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="18" selection-start="1168" selection-end="1168" vertical-scroll-proportion="0.0">
+        <state line="25" column="19" selection-start="741" selection-end="741" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/no-sql-database-client/src/java/ru/compscicenter/db/tolmachev/nosqldb/client/commandline/CommandLine.java">
+    <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/database/TableDescription.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="17" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.0">
+        <state line="28" column="0" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/database/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="92" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/exceptions/DataBaseRequestException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/dbmanager/BackupExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="28" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/database/DataContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/dbmanager/CommandLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="31" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/command/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="44" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/database/Row.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/httpprotocol/DataBaseHttpServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="31" selection-start="3773" selection-end="3773" vertical-scroll-proportion="-1.0325203">
+        <state line="28" column="34" selection-start="898" selection-end="898" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/command/CommandExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="130" column="24" selection-start="5801" selection-end="5801" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/dbmanager/DataBaseManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="18" selection-start="4630" selection-end="4630" vertical-scroll-proportion="-3.94">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no-sql-database-server/src/java/ru/compscicenter/db/tolmachev/nosqldb/server/dbmanager/Balancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="40" selection-start="321" selection-end="321" vertical-scroll-proportion="-0.31626505">
+          <folding />
         </state>
       </provider>
     </entry>
